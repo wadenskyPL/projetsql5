@@ -1,0 +1,26 @@
+
+1-Adding Employees:
+INSERT INTO employees (first_name,last_name,email,hire_date,departement) values
+ (w'ap ajoute v ale pou non chak kolonn sa yo ki nan premye parantez la )
+
+2-Updating Employee Information
+UPDATE employees 
+set email ="nouvo imel"
+WHERE id_employer =nimewo enplwaye ke ou bezwen modifye a.
+
+
+3-Viewing Employee List:
+SELECT first_name ,last_name, email,hire_date 
+FROM employees;
+
+
+4-Viewing Department List:
+SELECT non as departement_name  
+FROM departement ;
+
+5-SELECT salary_amount,efective_date
+FROM salaries
+WHERE employer=2 ;
+
+
+
